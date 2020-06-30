@@ -1,0 +1,15 @@
+
+
+<div class="liste row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+
+
+<div *ngFor="let voiture of listeVoitures"  class="card" style="width: 20rem;">
+    <img src="../../../assets/images/{{voiture.photo}}" class="card-img-top" alt="Photo de la voiture">
+    <div class="card-body">
+      <h5 class="card-title">{{voiture.marque}} {{voiture.modele}}</h5>
+      <p class="card-text">{{voiture.nbKM}} Km<br>
+        {{voiture.prix}} €</p>
+      <a href="#" class="btn btn-primary">Voir l'annonce</a>
+    </div>
+  </div>
+</div>

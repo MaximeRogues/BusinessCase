@@ -1,0 +1,27 @@
+{
+    "voiture": [
+        {
+            "id": 1,
+            "marque": "Renault",
+            "modele":"Scenic",
+            "carburant": "Diesel",
+            "annee": 1997,
+            "nbKM": 200000,
+            "prix": 1500,
+            "photo": "scenic.jpg",
+            "description": "Un scenic vieux"
+
+        },
+        {
+            "id": 2,
+            "marque": "Peugeot",
+            "modele":"206",
+            "carburant": "Essence",
+            "annee": 2001,
+            "nbKM": 140000,
+            "prix": 2000,
+            "photo": "206.jpg",
+            "description": "Une 206 pas mal"
+        }
+    ]
+}
